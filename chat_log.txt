@@ -1,0 +1,78 @@
+GOVERNED CHAT AGENT LOG
+======================
+
+Purpose:
+This log records proposals made by the chat agent
+and whether they were approved or rejected by the human.
+
+Rule:
+No output is final unless explicitly approved by the human.
+
+
+--- ENTRY 001 ---
+
+Task:
+High-level synthesis of governance-first architecture.
+
+Decision: Rejected
+
+Reason:
+The output was too generic and did not accurately reflect
+the specific mechanisms described in the papers.
+Key concepts were missing.
+
+
+--- ENTRY 002 ---
+
+Task:
+Revised synthesis of governance-first architecture with explicit mechanisms.
+
+Decision: Rejected
+
+Reason:
+Although core concepts were named, the synthesis remains too generic.
+It does not faithfully reflect the architectural rigor, enforcement logic,
+or interaction between mechanisms described in the papers.
+
+
+
+--- ENTRY 003 ---
+
+Task:
+Structured synthesis of governance-first architecture with enforced mechanisms.
+
+Decision: Approved
+
+Notes:
+This synthesis accurately reflects the core architectural mechanisms
+described in the papers, including separation of cognition and authority,
+fail-closed safety gates, authority tokens, commitment semantics,
+reachability-based safety, and structural self-governance.
+Approved as a canonical high-level architecture description.
+
+
+
+--- ENTRY 004 ---
+
+Task:
+Simplified public explanation of governance-first architecture.
+
+Decision: Rejected
+
+Reason:
+The explanation is simplified to the point of inaccuracy
+and does not preserve the enforcement semantics of the architecture.
+
+
+--- ENTRY 005 ---
+
+Task:
+Public-facing explanation of governance-first architecture.
+
+Decision: Approved
+
+Notes:
+This explanation preserves the core control and safety properties
+while remaining understandable to a general audience.
+
+
